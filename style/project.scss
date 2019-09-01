@@ -6,8 +6,12 @@
     width: 50%;
   }
   .project-image-box {
-    background-image: url("https://picsum.photos/630/");
-    background-size: cover;
+    // background-image: url("https://picsum.photos/id/964/630/630");
+    // background-size: cover;
+    .project-image{
+        width: 100%;
+        max-width: 100%;
+    }
   }
   .project-description-box {
     display: flex;
