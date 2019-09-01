@@ -1,0 +1,34 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: $header-height;
+  background-color: $light;
+  z-index: 1000;
+  .navbar__container {
+    padding: 0.2rem 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    .navbar {
+      width: 20%;
+      text-align: left;
+      .navbar__list {
+        display: flex;
+        justify-content: flex-start;
+        li {
+          margin-right: 3rem;
+        }
+      }
+    }
+    .nav-title {
+      width: 60%;
+      text-align: center;
+    }
+    .nav-icons {
+      text-align: right;
+      width: 20%;
+    }
+  }
+}

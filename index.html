@@ -12,24 +12,87 @@
   </head>
   <body>
     <header>
-
-        <div>
-            <img src="./assets/basic-logo-32x32-black.png" alt="LOGO" />
-            <ul class="list navbar">
+        <div class="navbar__container">
+            <div class="navbar">
+              <ul class="min-list navbar__list">
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+                <li><a class="link--active" href="#">Contact</a></li>
+              </ul>
+            </div>
+      
+            <div class="nav-title">
+              <h2>Luis Martinez Suarez</h2>
+            </div>
+      
+            <div class="nav-icons">
+              <a href="mailto:martinez.s.luis@gmail.com"><i class="fas fa-envelope"></i></a></i>
+            </div>
         </div>
-
     </header>
 
     <main>
+
+        <section id="hero" class="container hero-container">
+            <h1 class="hero__title">Professional web design and development</h1>
+            <p class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas ultricies mi eget mauris.</p>
+        </section>
+
       <section id="Projects">
-        Here show my projects
+        
+        <!-- PROJECT 1 -->
+        <div class="project-container">
+            <div class="project-box project-image-box">
+            </div>
+            <div class="project-box project-description-box">
+                <div class="project-description-box__container">
+
+                    <h3 class="project__title">Project 1</h3>
+                    <p class="project__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas ultricies mi eget mauris.
+                    </p>
+                    <a class="project__link" href="#">Case study</a>
+                </div>
+                    
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-container">
+            <div class="project-box project-description-box">
+                <div class="project-description-box__container">
+
+                    <h3 class="project__title">Project 2</h3>
+                    <p class="project__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas ultricies mi eget mauris.
+                    </p>
+                    <a class="project__link" href="#">Case study</a>
+                </div>
+                    
+            </div>
+                <div class="project-box project-image-box">
+                </div>
+            </div>
+
+        
+            <!-- PROJECT 3 -->
+            <div class="project-container">
+                    <div class="project-box project-image-box">
+                    </div>
+                    <div class="project-box project-description-box">
+                        <div class="project-description-box__container">
+        
+                            <h3 class="project__title">Project 3</h3>
+                            <p class="project__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Maecenas ultricies mi eget mauris.
+                            </p>
+                            <a class="project__link" href="#">Case study</a>
+                        </div>
+                            
+                    </div>
+                </div>
+
+
       </section>
 
-      <section id="contact">
+      <section id="contact" class="container">
         Here show contact form
       </section>
     </main>

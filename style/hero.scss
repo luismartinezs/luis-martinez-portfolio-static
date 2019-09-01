@@ -1,0 +1,11 @@
+.hero-container {
+    padding: 5rem 0;
+    margin-bottom: 3rem;
+    .hero__title {
+        font-size: $hero-title;
+        margin-bottom: 2rem;
+    }
+    .hero__subtitle {
+        font-size: $hero-subtitle;
+    }
+}

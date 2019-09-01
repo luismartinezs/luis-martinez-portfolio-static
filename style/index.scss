@@ -1,7 +1,15 @@
-@import './theme';
+@import "./theme";
 
 body {
   font-family: $font-p;
+  background-color: $light;
+  font-size: 12pt;
+  margin: 0;
+  main,
+  footer {
+    position: relative;
+    top: $header-height;
+  }
 }
 
 h1,
@@ -14,7 +22,30 @@ h6 {
 }
 
 a {
+  color: $dark;
+  text-decoration: none;
   &:hover {
     color: $primary;
+    text-decoration: underline;
   }
+}
+
+::selection {
+  background-color: $primary;
+}
+
+.container {
+  margin: auto;
+  width: 65vw;
+  min-width: 500px;
+}
+
+.min-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link--active {
+  color: $primary;
 }
