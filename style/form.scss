@@ -1,0 +1,22 @@
+.form__label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+    .form__required-marker {
+        color: $primary-dark;
+    }
+}
+.form__input {
+    background-color: transparent;
+    border: 1px solid $muted;
+    border-radius: 4px;
+    color: gray;
+    font-family: $font-p;
+    margin-bottom: 1.7rem;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    &:focus {
+        background-color: white;
+    }
+}

@@ -1,0 +1,38 @@
+.footer {
+  background-color: $dark;
+  color: $light-secondary;
+  padding: 3rem 0;
+  font-family: $font-heading;
+  font-size: 0.8rem;
+  .footer__logo {
+    margin-bottom: 1rem;
+  }
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    .footer__section {
+      margin-right: 4rem;
+      flex: 1 1 auto;
+      border-top: 1px solid $light-secondary;
+      padding-top: 1rem;
+      .footer__item {
+        padding-bottom: 0.8rem;
+        .footer__link {
+          color: $light-secondary;
+          &:hover {
+            text-decoration: underline;
+            color: $light-secondary;
+          }
+        }
+      }
+    }
+  }
+}
+
+.subfooter {
+  background-color: $dark-secondary;
+  color: $muted;
+  text-align: center;
+  padding: 0.2rem 0;
+  font-size: 0.8rem;
+}

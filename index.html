@@ -95,13 +95,53 @@
 
       </section>
 
-      <section id="contact" class="container">
-        Here show contact form
+      <section id="contact" class="container container-v-spacing">
+
+        <h2 class="section__title">Get in touch</h2>
+        <form action="submit">
+          <label class="form__label" for="name">Name<span class="form__required-marker">*</span></label>
+          <input class="form__input" type="text" id="name" placeholder="Name" required/>
+          <label class="form__label" for="email">Email<span class="form__required-marker">*</span></label>
+          <input class="form__input" type="email" id="email" placeholder="Email" required/>
+          <label class="form__label" for="name">Telephone</label>
+          <input class="form__input" type="tel" id="telephone" placeholder="Telephone" />
+          <label class="form__label" for="message">What can I do for you?<span class="form__required-marker">*</span></label>
+          <textarea class="form__input" name="message" id="message" rows="10" placeholder="Please, tell me about your project." required></textarea>
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </form>
+
       </section>
     </main>
 
     <footer>
-      Footer
+
+
+      <div class="footer">
+        <div class="container">
+        <div class="footer__logo">LOGO</div>
+        <div class="footer__container">
+          <ul class="min-list footer__section">
+            <li class="footer__item"><a class="footer__link" href="">Home</a></li>
+            <li class="footer__item"><a class="footer__link" href="" >Work</a></li>
+            <li class="footer__item"><a class="footer__link" href="">Blog</a></li>
+            <li class="footer__item"><a class="footer__link" href="">Contact</a></li>
+            <li class="footer__item"><a class="footer__link" href="">About me</a></li>
+          </ul>
+          <ul class="min-list footer__section">
+            <li class="footer__item"><a class="footer__link" href="">Privacy</a></li>
+            <li class="footer__item"><a class="footer__link" href="">Sitemap</a></li>
+          </ul>
+          <ul class="min-list footer__section">
+            <li class="footer__item"><a class="footer__link" href="">Social Icons</a></li>
+            <li class="footer__item">Contact info</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <div class="subfooter">
+        <p>@ 2019 Luis Martinez Suarez. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="./main.js"></script>

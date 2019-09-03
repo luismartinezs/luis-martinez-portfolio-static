@@ -40,6 +40,11 @@ a {
   min-width: 500px;
 }
 
+.container-v-spacing {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .min-list {
   margin: 0;
   padding: 0;
@@ -48,4 +53,28 @@ a {
 
 .link--active {
   color: $primary;
+}
+
+.section__title {
+  width: 100%;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 2rem;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  color: $light;
+  background-color: $dark;
+  &:hover {
+    background-color: $light;
+    color: $dark;
+    border: 1px solid $dark;
+  }
 }
